@@ -41,7 +41,7 @@ vector<float> generateSeed(int arrayLength){
     return seedArray;
 }
 
-//I need to get the length of both float and int vectors, not sure hwo to put both in same function?
+//Getting length of Vectors
 int getLengthArray(vector<float>inputArray){
     int Length = 0;
     for (vector<float>::const_iterator i = inputArray.begin(); i != inputArray.end(); ++i){
