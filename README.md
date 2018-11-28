@@ -5,6 +5,6 @@ A simple Noise Geneartor implementing randomly generated seeds of a set value (2
 
 The function itself works in this way:
 
-Noise Value = Amplitude * Seed Value (for all Seed values where their position in the array MOD Frequency = 0)
+Noise Value = Amplitude * Seed Value (for all Seed values where their position in the vector MOD Frequency = 0)
 
 With this algorithm, and a high seed length, pseudorandom terrain heightmaps can be generated. For the time being the Noise Values calculated are displayed on an SDL Graphics Window, but in the future I wish to add lines between these points to draw a proper 2D terrain, such as a mountain range
